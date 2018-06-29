@@ -1,6 +1,12 @@
 node{
-stage('stage 1')
-	{
-		echo 'hi 123'
-	}
+ stage('Console App Check out')
+    {
+      
+       echo 'Pull SCM'
+        
+        git branch: 'master',
+        credentialsId: 'gitCred',
+        url: 'https://github.com/rajkumar4543/JenkinsConsoleApp.git/'
+     
+    }
 }
