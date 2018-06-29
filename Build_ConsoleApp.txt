@@ -9,4 +9,8 @@ node{
         url: 'https://github.com/rajkumar4543/JenkinsConsoleApp.git/' 
      
     }
+    stage('stage 2')
+    {
+    echo 'welcome to jenkins...'
+    }
 }
