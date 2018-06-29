@@ -1,4 +1,4 @@
-﻿node{
+node{
 stage('stage 1')
 	{
 		echo 'hi 123'
