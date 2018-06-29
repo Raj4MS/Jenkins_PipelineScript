@@ -6,7 +6,7 @@ node{
         
         git branch: 'master',
         credentialsId: 'gitCred',
-        url: 'https://github.com/rajkumar4543/JenkinsConsoleApp.git/'
+        url: 'https://github.com/rajkumar4543/JenkinsConsoleApp.git/' 
      
     }
 }
